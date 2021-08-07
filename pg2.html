@@ -1,12 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dicionário HTML5</title>
 </head>
 <body>
-    
+ 
+
+<h3>Tags Continuadas em HTML5:</h3>
+
+<ul>
+<li>&lt;!--...--&gt; Define um comentário;</li>
+<li>&lt;!DOCTYPE&gt;  Define o tipo de documento; (No HTML 4 existiam três (3) diferentes tipos de doctype, mas no HTML 5 temos apenas um (1) tipo &lt;!DOCTYPE HTML&gt;. É aqui que o navegador entende o tipo de documento e como ele deve interpretar as tags nele contidas.)</li>
+<li>&lt;a&gt; Define um hyperlink;</li>
+<li>&lt;abbr&gt; Define uma abreviação</li>
+<li>&lt;address&gt; Define um endereço. (Passa a ser tratado como uma seção);</li>
+<li>&lt;area&gt; Define uma área dentro de um mapa de imagem;</li>
+<li>&lt;b&gt; Define um texto em negrito; (Possui o mesmo nível semântico que um SPAN, e também o estilo de negrito no texto. Contudo, ele não dá nenhuma importância para o texto marcado com ele.) </li>
+<li>&lt;base&gt; Define uma base URL para todos os links da página;</li>
+<li>&lt;bdo&gt; Define a direção do texto apresentado;</li>
+<li>&lt;blockquote&gt; Define uma citação longa;</li>
+<li>&lt;body&gt; Define o corpo da página;</li>
+<li>&lt;br&gt; Insere uma quebra de linha simples;</li>
+<li>&lt;button&gt; Define um botão de comando;</li>
+<li>&lt;caption&gt; Define o "caption" de uma tabela;</li>
+<li>&lt;cite&gt; Define uma citação;</li>
+<li>&lt;code&gt; Define o código texto do computador;</li>
+<li>&lt;col&gt; Define os atributos da coluna da tabela;</li>
+<li>&lt;colgroup&gt; Define um grupo de colunas da tabela;</li>
+<li>&lt;dd&gt; Define uma descrição de definição;</li>
+<li>&lt;del&gt; Define um texto deletado;</li>
+<li>&lt;dfn&gt; Define um termo de definição;</li>
+<li>&lt;div&gt; Define uma seção no documento;</li>
+<li>&lt;dl&gt; Define uma lista de definição;</li>
+<li>&lt;dt&gt; Define um termo de definição;</li>
+<li>&lt;em&gt; Define um texto em ênfase;</li>
+<li>&lt;fieldset&gt; Define um conjunto de campos (fieldset);</li>
+<li>&lt;form&gt; Define um formulário;</li>
+<li>&lt;h1&gt; até &gt;h6&gt; Define do cabeçalho 1 até o cabeçalho 6;</li>
+<li>&lt;head&gt; Define uma informação sobre o documento. (Não aceita mais elementos Child como filho);</li>
+<li>&lt;hr&gt; Define uma regra horizontal. (Tem o mesmo nível que um parágrafo, mas também é utilizado para fazer separações e quebras de linha);</li>
+<li>&lt;html&gt; Define um documento html;</li>
+<li>&lt;i&gt; Define um texto em itálico; (Possui o mesmo nível semântico que um SPAN. O texto continua sendo itálico e para usuários de leitores de tela, a voz utilizada é modificada para indicar ênfase. É de grande valor e utilidade para marcar, termos técnicos, termos em outras linguagens etc.)</li>
+<li>&lt;iframe&gt; Define uma linhas sobre a janela (frame);</li>
+<li>&lt;img&gt; Define uma imagem;</li>
+<li>&lt;input&gt; Define um campo de inserção;</li>
+<li>&lt;ins&gt; Define um texto inserido;</li>
+<li>&lt;kbd&gt; Define um texto do teclado;</li>
+<li>&lt;label&gt; Define uma "label" para o formulário;</li>
+<li>&lt;legend&gt; Define um título para os campos (fields);</li>
+<li>&lt;li&gt; Define os itens da lista;</li>
+<li>&lt;link&gt; Define uma referência;</li>
+<li>&lt;map&gt; Define uma imagem de mapa;</li>
+<li>&lt;menu&gt; Define uma lista de "menus";</li>
+<li>&lt;meta&gt; Define informações meta;</li>
+<li>&lt;noscript&gt; Define uma seção noscript;</li>
+<li>&lt;object&gt; Define um objeto incorporado;</li>
+<li>&lt;ol&gt; Define uma lista ordenada;</li>
+<li>&lt;optgroup&gt; Define um grupo de opção;</li>
+<li>&lt;option&gt; Define uma opção em uma lista suspensa (drop-down list);</li>
+<li>&lt;p&gt; Define um parágrafo;</li>
+<li>&lt;param&gt; Define um parâmetro para determinado objeto;</li>
+<li>&lt;pre&gt; Define um texto pré-formatado;</li>
+<li>&lt;q&gt; Define uma citação curta;</li>
+<li>&lt;s&gt; Define um texto que não é mais correto.</li>
+<li>&lt;samp&gt; Define um código de amostra;</li>
+<li>&lt;script&gt; Define um script;</li>
+<li>&lt;select&gt; Define uma lista selecionável;</li>
+<li>&lt;small&gt; Define um pequeno texto;</li>
+<li>&lt;span&gt; Define uma seção no documento;</li>
+<li>&lt;strong&gt; Define um texto forte (similar ao negrito);</li>
+<li>&lt;style&gt; Define um estilo;</li>
+<li>&lt;sub&gt; Define um texto subscrito;</li>
+<li>&lt;sup&gt; Define um texto sobrescrito;</li>
+<li>&lt;table&gt; Define uma tabela;</li>
+<li>&lt;tbody&gt; Define o corpo da tabela;</li>
+<li>&lt;td&gt; Define uma célula da tabela;</li>
+<li>&lt;textarea&gt; Define um área de texto;</li>
+<li>&lt;tfoot&gt; Define o rodapé da tabela;</li>
+<li>&lt;th&gt; Define o cabeçalho da tabela;</li>
+<li>&lt;thead&gt; Define o cabeçalho da tabela;</li>
+<li>&lt;title&gt; Define o título do documento;</li>
+<li>&lt;tr&gt; Define uma linha da tabela;</li>
+<li>&lt;ul&gt; Define uma lista desordenada;</li>
+<li>&lt;var&gt; Define uma variável;</li>
+</ul>
+
+<h3>Tags Descontinuadas:</h3>
+
+<ul>
+<li>&lt;acronym&gt; Define siglas em HTML 4.01. (Desenvolvedores preferem utilizar a tag &lt;abbr&gt;);</li>
+<li>&lt;applet&gt; Define um miniaplicativo incorporado. (Ficou obsoleto em função da tag &lt;object&gt;);</li>
+<li>&lt;basefont&gt; Define as propriedads da font padrão para todo o texto do documento. (Apenas efeito visual);</li>
+<li>&lt;big&gt; Usado para tornar o texto maior. (Apenas efeito visual);</li>
+<li>&lt;center&gt; Usado para alinhar texto e conteúdo no centro. (Apenas efeito visual);</li>
+<li>&lt;dir&gt; Define a lista do diretório. (Ficou obsoleto em função da Tag &lt;ul&gt;);</li>
+<li>&lt;font&gt; Especifica o tipo de fonte, tamanho, e cor do texto. (Apenas efeito visual);</li>
+<li>&lt;frame&gt; Define uma janela particular dentro de um conjunto de "frames". (Fere princípios de usabilidade e acessibilidade);</li>
+<li>&lt;frameset&gt; Define um conjunto de frames organizado por múltiplas janelas.(Fere princípios de usabilidade e acessibilidade);</li>
+<li>&lt;noframes&gt; Texto exibido para navegadores que não lidam com "frames". (Fere princípios de usabilidade e acessibilidade);</li>
+<li>&lt;strike&gt; Exibe texto rasurado. (Apenas efeito visual);</li>
+<li>&lt;tt&gt; Define teletipo de texto. (Apenas efeito visual);</li>
+<li>&lt;u&gt; Define sublinhado. (Apenas efeito visual);</li>
+<li>&lt;xmp&gt; Define texto pré-formatado. (Ficou obsoleto em função da tag &lt;pre&gt;);</li>
+</ul>
+
+</p><h3>Layout</h3>
+
+<p></p><ul><li>&lt;article&gt;: Define um artigo;</li><li>&lt;aside&gt;: Define o conteúdo além do
+conteúdo da página;</li><li>&lt;embed&gt;: Define o conteúdo interativo ou
+plugin externo;</li><li>&lt;figcaption&gt;: Define o caption de uma
+imagem;</li><li>&lt;figure&gt;: Define um grupo de média e seus
+captions;</li><li>&lt;footer&gt;: Define o rodapé de uma página;</li><li>&lt;header&gt;: Define o cabeçalho de uma
+página;</li><li>&lt;nav&gt;: Define os links de navegação;</li><li>&lt;section&gt;: Define uma área ou seção;</li><li>&lt;wbr&gt;: Define uma possível quebra de
+linha;</li></ul><p></p>
+
+<h3>Media</h3>
+
+<p></p><ul><li>&lt;audio&gt;: Define o conteúdo de som;</li><li>&lt;source&gt;: Define recursos de mídia;</li><li>&lt;video&gt;: Define um vídeo;</li></ul><p></p>
+<h3>Aplicativos Web</h3>
+
+<p></p><ul><li>&lt;canvas&gt;: Define gráficos;</li><li>&lt;command&gt;: Define um botão de comando;</li><li>&lt;datagrid&gt;: Referências aos dados
+dinâmicos em Tree View ou tabelas;</li><li>&lt;datalist&gt;: Define uma lista suspensa
+(DropDown);</li><li>&lt;details&gt;: Define detalhes de um elemento;</li><li>&lt;output&gt;: Define os tipos de saída
+(outputs);</li><li>&lt;progress&gt;: Define o progresso de uma
+tarefa qualquer;</li></ul><p></p>
+
+<h3>Linguagem Ruby</h3>
+
+<p></p><ul><li>&lt;rp&gt;: Define o browser substituto para elementos não
+suportados pelo ruby;</li><li>&lt;rt&gt;: Define explicações para as anotações de <a href="https://www.devmedia.com.br/orientacao-a-objetos-com-ruby/33726" title="orientacao-a-objetos-com-ruby" target="_blank"> ruby</a>;</li><li>&lt;ruby&gt;: Define as anotações de ruby;</li></ul><p></p>
+
+
+<h3>Outros</h3>
+
+<p></p><ul><li>&lt;dialog&gt;: Define uma conversa ou pessoas falando;</li><li>&lt;hgroup&gt;: Define informações sobre uma determinada
+área do documento;</li><li>&lt;keygen&gt;: Define a key (chave) do formulário;</li><li>&lt;mark&gt;: Define a marcação de um texto;</li><li>&lt;meter&gt;: Define a medição dentro de um intervalo
+pré-definido;</li><li>&lt;summary&gt;: Define o cabeçalho de dados “detalhe”;</li><li>&lt;time&gt;: Define uma data ou hora;</li></ul><p></p>
+
+<a href="index.html">Pagina inicial</a>
+
 </body>
+
 </html>
